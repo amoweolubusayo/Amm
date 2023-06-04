@@ -172,19 +172,19 @@ const TokenSupplyChart = () => {
           <div className="w-1/3 px-4">
             <div className="h-400" style={{ height: "400px" }}>
               <h2>Pie Chart</h2>
-              <Pie data={chartData} options={chartOptions} />
+              <Pie data={chartData} />
             </div>
           </div>
           <div className="w-1/3 px-4">
             <div className="h-400" style={{ height: "400px" }}>
               <h2>Doughnut Chart</h2>
-              <Doughnut data={chartData} options={chartOptions} />
+              <Doughnut data={chartData} />
             </div>
           </div>
           <div className="w-1/3 px-4">
             <div className="h-400" style={{ height: "400px" }}>
               <h2>Area Chart</h2>
-              <Line data={chartData} options={chartOptions} />
+              <Line data={chartData} />
             </div>
           </div>
         </div>
