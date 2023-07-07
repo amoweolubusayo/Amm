@@ -17,7 +17,7 @@ Here is a list of important things about AMMs you should know before building on
 
 # Process Flow
 
-![](https://hackmd.io/_uploads/BJP6MS7Lh.png)
+![](https://celo.academy/uploads/default/original/2X/7/7d9267a206655914898408d391bf93abe9c0a03d.png)
 
 
 # Starter Guide
@@ -187,24 +187,24 @@ From this contract, users can create liquidity pools by depositing tokens into t
 
 To **test** this contract, let us go to the Remix Online IDE. [Remix Online IDE](https://remix.ethereum.org) is a tool for developing, debugging, deploying and testing smart contracts. Open [Remix](https://remix.ethereum.org/) and create a file under the contracts folder. We are literally copying the same smart contract code as above 
 
-![](https://hackmd.io/_uploads/rkfmrbNL2.png)
+![](https://celo.academy/uploads/default/original/2X/f/f820be1a09a8f553b5a06d3275ef554694d42649.png)
 
 From here navigate to the Solidity compiler tab to compile the code
 
 
-![](https://hackmd.io/_uploads/Sks0rW4Un.png)
+![](https://celo.academy/uploads/default/original/2X/e/e059c56dc7c231487c7e996f11ee1f71af38c50b.png)
 
 On a successful compilation, Remix will give several options such as publishing on ipfs or Swarm. 
 
-![](https://hackmd.io/_uploads/Bky-5dVUh.png)
+![](https://celo.academy/uploads/default/original/2X/4/44ae22f81f7559fff13cf6da5f1fb706a26acc05.png)
 
 We don't need to do those so we can move to the next tab and deploy our contract. 
 
-![](https://hackmd.io/_uploads/ryvMsd48n.png)
+![](https://celo.academy/uploads/default/original/2X/a/a2799339b606c3c1386f650808a1e2a3d0b35b9f.png)
 
 Click on the `Deploy` button
 
-![](https://hackmd.io/_uploads/SkcQnOEUn.png)
+![](https://celo.academy/uploads/default/original/2X/0/069033cabf8d2c26ed8c92fa25b9e3b4fc74defc.png)
 
 
 The **first test** we will do is **create the liquidity pool**
@@ -212,14 +212,14 @@ The **first test** we will do is **create the liquidity pool**
 
 We will input the token addresses of tokenA and tokenB as well as the amount of the tokens. You can get test addresses from Remix from Account, so just navigate, copy and paste any two addresses
 
-![](https://hackmd.io/_uploads/r1bXFtVUh.png)
-![](https://hackmd.io/_uploads/SJ-XFKNU3.png)
+![](https://celo.academy/uploads/default/original/2X/2/2ce05b6c2f7f0bb27717c7d2eecbb7a87078642f.png)
+![](https://celo.academy/uploads/default/original/2X/2/2579c8da34b38018247cf6e78c6af7419e11e68f.png)
 
-![](https://hackmd.io/_uploads/BJSNwtNLh.png)
+![](https://celo.academy/uploads/default/original/2X/2/2579c8da34b38018247cf6e78c6af7419e11e68f.png)
 
 Click on `transact` and observe your output
 
-![](https://hackmd.io/_uploads/B18EwYVU3.png)
+![](https://celo.academy/uploads/default/original/2X/2/2579c8da34b38018247cf6e78c6af7419e11e68f.png)
 
 From the image above, decoded output tells us how much liquidity we have of which it is `1000`
 
@@ -227,13 +227,13 @@ The **second test** we can do is the **swap** function
 
 Fill in all inputs and observe the output. 
 
-![](https://hackmd.io/_uploads/ryP9zqEL3.png)
+![](https://celo.academy/uploads/default/original/2X/9/95f01d0ec9ced48ba83b9ec0261b718b15b99f70.png)
 
-![](https://hackmd.io/_uploads/SkO9G94L3.png)
+![](https://celo.academy/uploads/default/original/2X/8/8079998d025799503a4cd3ef32e74d11a22df500.png)
 
 The **third test** we can do is calculate the price of a token after getting the amounts of tokens in the pool and calculating the constant product. 
 
-![](https://hackmd.io/_uploads/SkU2HqV82.png)
+![](https://celo.academy/uploads/default/original/2X/7/782d68f5dee600d9ccec9693a9ba90e66afcc42e.png)
 
 Now, that we have ran couple of tests, let's go back to our IDE and deploy our smart contract.
 
@@ -292,10 +292,15 @@ https://alfajores.celoscan.io/address/0x3E73365764fBBE4f58Eb0B6a62CA80FC706D851B
 I hope you enjoyed reading this article up to this point. Here is a recap of what you learnt so far
 
 :heavy_check_mark: Overview of AMMs, basic terms and process flow
+
 :heavy_check_mark: Understanding the constant product formula (x * y = k)
+
 :heavy_check_mark: Using Remix IDE and its features
+
 :heavy_check_mark: Implementing the AMM functionality using Solidity
+
 :heavy_check_mark: Testing the functionality of the AMM contract using Remix 
+
 :heavy_check_mark: Deploying of the AMM contract via Celo composer
 
 
